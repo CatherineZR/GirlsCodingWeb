@@ -1,6 +1,6 @@
 .header{
     height: 500px;
-    background: url('E:\\GCD程序\\GCD\\Img.jpg');
+    background: url('.\\Img.jpg');
     text-align: center;
     color: darkslategrey;
 }
