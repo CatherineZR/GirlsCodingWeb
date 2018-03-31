@@ -10,6 +10,16 @@
     <script src="main.js"></script>
 </head>
 <body>
+    <script type="text/javascript">
+        function warning(){
+            alert("Hello world");
+        }
+
+        function warning2(){
+            alert("Goodnight world");
+        }
+    </script>
+
     <div class="header">
         <h1>Illustrations</h1>
         <p>Welcome to enjoy the illustrations</p>
@@ -36,11 +46,11 @@
         <div>
             <div class="bigger">
                 <img src=".\\Img5.jpg"/>
-                <button type="button">Click Me!</button>
+                <button type="button" onclick="warning()">Click Me!</button>
             </div>
             <div class="bigger">
                 <img src=".\\Img6.jpg"/>
-                <button type="button">Click Me!</button>
+                <button type="button" onclick="warning2()">Click Me!</button>
             </div>
         </div>
         </div>
@@ -50,3 +60,4 @@
     </div>
 </body>
 </html>
+
